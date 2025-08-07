@@ -47,4 +47,4 @@ This script is a **multi-layer ESP hardware detection tool**, designed to deeply
 Install dependencies:
 
 ```bash
-pip install pyserial colorama requests packaging pyusb
+pip install pyserial colorama requests packaging pyusb psutil
