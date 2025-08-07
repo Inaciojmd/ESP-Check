@@ -1,42 +1,50 @@
-# ESP Hardware Detection Tool v3.0
+# ⚠️ Advanced ESP Hardware Detection & Analysis Tool ⚙️
 
-![ESP Tool Banner](https://example.com/esp-tool-banner.png) *Banner image showing ESP chip with detection interface*
+![Banner](https://user-images.githubusercontent.com/12345678/esp_banner.png)
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Output Interpretation](#output-interpretation)
-- [Technical Specifications](#technical-specifications)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
+> **Version**: `v3.0`  
+> **Author**: `👤 YourName`  
+> **License**: MIT  
+> **Tags**: `ESP32`, `ESP8266`, `MicroPython`, `Arduino`, `Hardware Scanner`, `USB Analysis`, `Cyber Diagnostic`
 
-## Overview
-A comprehensive diagnostic tool for ESP32/ESP8266 microcontrollers that provides:
-- Complete hardware structure detection
-- Firmware analysis
-- Wireless capability verification
-- Cloud update checking
+---
 
-**Supported Devices**:
-- ESP32 (all variants including S2/S3/C3/C6)
-- ESP8266
-- Associated USB-UART bridges (CP210x, CH340, FTDI)
+## 💀 Description
 
-## Features
+> **_Scan. Analyze. Dominate._**
 
-### Hardware Detection
-| Feature            | Details                              |
-|--------------------|--------------------------------------|
-| CPU Identification | Model, revision, cores, clock speed |
-| Memory Analysis    | Flash size, manufacturer, partitions |
-| USB Bridge         | Chip type, driver status             |
-| MAC Address        | Network interface unique ID          |
+This script is a **multi-layer ESP hardware detection tool**, designed to deeply analyze USB-connected ESP devices (ESP32, ESP8266) with terrifying precision.
 
-### Wireless Analysis
-```python
-def analyze_wifi():
-    # Tests 802.11 b/g/n capabilities
-    # Verifies TX power levels
-    # Checks monitor mode support
+- 🧠 Auto-detects all serial/USB devices
+- 🔬 Extracts CPU, Flash, MAC, and Partition data
+- ☁️ Fetches real-time update info from GitHub
+- 💥 Supports MicroPython, Arduino, and raw firmware detection
+- 👁️‍🗨️ Generates complete technical reports
+- 🧪 Advanced diagnostics commands included
+
+---
+
+## 🧠 Features
+
+| Category       | Capability |
+|----------------|------------|
+| 🔌 USB Scan     | Lists connected USB devices with Vendor/Product/Serial |
+| 🧿 ESP Detection | Identifies CP210x, CH340, FTDI bridges |
+| 💻 CPU Info     | Gets ESP chip type, cores, and WiFi/Bluetooth features |
+| 💾 Flash Memory | Manufacturer, device type, and size detection |
+| 🧱 Partitions   | Reads and parses partition tables |
+| 📶 WiFi Check   | Identifies monitor mode, AP/STA dual ops |
+| 📳 Bluetooth    | BLE, Classic, or None based on chip |
+| 🔍 Firmware     | Detects MicroPython & Arduino frameworks |
+| 🔁 Updates      | Gets latest firmware releases via GitHub API |
+| 📝 Report       | Generates complete hardware diagnostic reports |
+| 💣 Tools        | Lists recommended toolchain for development |
+
+---
+
+## 🖥️ Requirements
+
+Install dependencies:
+
+```bash
+pip install pyserial colorama requests packaging pyusb
