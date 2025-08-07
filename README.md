@@ -3,7 +3,7 @@
 ![Banner](https://user-images.githubusercontent.com/12345678/esp_banner.png)
 
 > **Version**: `v3.0`  
-> **Author**: `👤 YourName`  
+> **Author**: `👤 DaylorSec`  
 > **License**: MIT  
 > **Tags**: `ESP32`, `ESP8266`, `MicroPython`, `Arduino`, `Hardware Scanner`, `USB Analysis`, `Cyber Diagnostic`
 
